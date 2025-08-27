@@ -38,6 +38,11 @@ dependencies:
   chewie: ^1.12.1
   video_player_media_kit: ^1.0.6
   cached_video_player_plus: ^4.0.4
+  media_kit_libs_android_video: any
+  media_kit_libs_ios_video: any
+  media_kit_libs_macos_video: any
+  media_kit_libs_windows_video: any
+  media_kit_libs_linux: any
 
 
 dev_dependencies:
