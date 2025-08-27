@@ -29,6 +29,7 @@ class _MyConfettiState extends State<MyConfetti> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("C O N F E T T I"),
+        centerTitle: true,
       ),
       body: Stack(
         children: [
