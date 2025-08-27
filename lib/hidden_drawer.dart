@@ -53,6 +53,8 @@ class _MyHiddenDrawerState extends State<MyHiddenDrawer> {
   Widget build(BuildContext context) {
     return HiddenDrawerMenu(
         screens: _pages,
+        initPositionSelected: 0,
+        slidePercent: 60,
         backgroundColorMenu: Colors.indigo.shade200
     );
   }
